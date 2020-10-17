@@ -7,9 +7,9 @@ function restanumeros(){
 
     resta = num1 - num2;
 
-    alert("El resultado es:" + resta)
+    alert("El resultado es:" + resta);
 
-    document.write(num1 - num2)
+    document.write(num1 - num2);
 
     console.log(num1 - num2);
 }

@@ -6,9 +6,9 @@ function multiplicacion(){
 
     multiplicacion = num1 * num2;
 
-    alert("El resultado es:" + multiplicacion)
+    alert("El resultado es:" + multiplicacion);
 
-    document.write(num1 * num2)
+    document.write(num1 * num2);
 
     console.log(num1 * num2);
 }
