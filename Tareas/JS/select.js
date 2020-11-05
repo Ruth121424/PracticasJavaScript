@@ -11,23 +11,23 @@ function calcularcalificacion(){
         imprimircal.innerText = "Tu calificacion es A"
     }else if(cal == "9"){
         imprimircal.innerText = "Tu calificacion es B"
-    }else if(cal == "8"){
+    } else if(cal == "8"){
         imprimircal.innerText = "Tu calificacion es C"
-    }else if(cal == "7"){
+    }else  if(cal == "7"){
         imprimircal.innerText = "Tu calificacion es D"
     }else if(cal == "6"){
-        imprimircal.innerText = "Tu calificacion es D"
-    }else if(cal == "5"){
+         imprimircal.innerText = "Tu calificacion es D"
+    }if(cal == "5" ){
         imprimircal.innerText = "Tu calificacion es F"
-    }else if(cal == "4"){
-        imprimircal.innerText = "Tu calificacion es F"
+     }else if(cal == "4"){
+       imprimircal.innerText = "Tu calificacion es F"
     }else if(cal == "3"){
         imprimircal.innerText = "Tu calificacion es F"
-    }else if(cal == "2"){
+     }else if(cal == "2"){
+         imprimircal.innerText = "Tu calificacion es F"
+     }else if(cal == "1"){
         imprimircal.innerText = "Tu calificacion es F"
-    }else if(cal == "1"){
-        imprimircal.innerText = "Tu calificacion es F"
-    }else if(cal == "0"){
-        imprimircal.innerText = "Tu calificacion es F"
-    }
+     }else if(cal == "0"){
+         imprimircal.innerText = "Tu calificacion es F"
+     }
 }
