@@ -7,8 +7,9 @@ function imparypromedio(){
     var imprimirpromedio = document.getElementById("imprimir");
     var imprimirsuma = document.getElementById("imprimir2");
     var contador1 = 0, contador2 = 0, sumapares=0, promedio=0, sumaimpares=0;
-    
-    for(var x=1; x<=30; x++){
+    var x=1;
+
+    while(x<=5){
         var introduce = Number(prompt("Ingresa un número"));
         if(introduce > 0 && introduce % 2 == 0){
             contador1++;
@@ -20,7 +21,8 @@ function imparypromedio(){
         }
         imprimirpromedio.innerText = "El promedio de los numeros pares es " + promedio;
         imprimirsuma.innerText = "La suma de los numeros impares es" + sumaimpares;
-
+       x++;
     }
-
+    
+  
 }

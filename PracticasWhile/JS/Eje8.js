@@ -4,13 +4,14 @@ function Eventlistener(){
 
 function serienum(){
     var listado = document.getElementById("lista");
-
-
-     for(var x=10; x<=20; x+=2){
+     var x=15;
+     while(x>=5){
         var lista = document.createElement("li");
         lista.setAttribute("class", "list-group-item");
         lista.innerText = x;
         listado.appendChild(lista);
-    }
+        x--;
+     }
+
 
 }
